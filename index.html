@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/679ddf24e8.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+
+<div class="container">
+
+<form> 
+    <label for="firstname">First Name</label>
+    <input type="text" name="firstname" id="firstname" placeholder="Enter your first name">
+    
+
+    <label for="lastname" >Last Name</label>
+    <input type="lastname" name="lastname" id="lastname" placeholder="Enter your Last Name">
+    
+
+    <label for="adress" >Adress</label>
+    <input type="adress" name="adress" id="address" placeholder="Enter your adress">
+    
+
+    <label for="birthday">Select Date of Birth </label>
+    <input type="date" name="Sbirthday" id="birthday">
+    
+
+    <label for="gender">Gender</label>
+    <select name="gender" id="gender">
+        <option id="choose" selected disabled>--</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+   
+    <label for="text-area">Notes</label>
+    <textarea id="text-area" name="text-area" rows="4" cols="50">
+        Some awasome text
+    </textarea>
+    
+
+    <button type="submit" name="submit" id="submit">Submit</button>
+    
+</form>
+</div>
+
+<table id="show" class="table">
+			
+    <tr class="table1">
+        
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Address</th>
+        <th>Birthday</th>
+        <th>Gender</th>
+        <th>Description</th>
+        <th>Delete</th>
+    </tr>
+    <tbody></tbody>
+</table>
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
+
+
+
+
+
+
